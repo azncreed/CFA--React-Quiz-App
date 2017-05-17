@@ -4,6 +4,7 @@ import Question from '../Questions/Question';
 import ProgressBar from '../ProgressBar/ProgressBar';
 import MultiChoice from '../MultiChoice/MultiChoice';
 import Results from '../Results/Results';
+import { Button } from 'react-bootstrap';
 
 class App extends Component {
   constructor(props) {
@@ -77,7 +78,6 @@ class App extends Component {
         : (
         <Results
          score={this.state.score} 
-         end_message="Congratulations, you have finished!" 
          handleRetry={this.newQuiz} />
          )}
       </div>

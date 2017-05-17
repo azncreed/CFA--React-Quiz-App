@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Question extends Component {
 	render() {
@@ -6,6 +7,8 @@ class Question extends Component {
 	}
 }
 
-
+Question.propTypes = {
+	current_question: PropTypes.string.isRequired
+};
 
 export default Question;

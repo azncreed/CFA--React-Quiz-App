@@ -1,5 +1,30 @@
 body {
   margin: 0;
-  padding: 50px;
+  padding-left: 350px;
+  padding-top: 200px;
   font-family: sans-serif;
+  background-image: url('http://wallpapercave.com/wp/bV3WiYh.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
+
+p {
+	font-size: 20px;
+	color: yellow;
+}
+h1, h2, h3, h4 {
+	color: yellow;
+	font-size: 40px;
+}
+
+.resize {
+	width: 400px;
+	height: 300px;
+	padding-bottom: 50px;
+	padding-top: -1500px;
+}
+
+
+
+
