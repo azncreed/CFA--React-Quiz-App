@@ -5,6 +5,8 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 import MultiChoice from '../MultiChoice/MultiChoice';
 import Results from '../Results/Results';
 import { Button } from 'react-bootstrap';
+import { Line } from 'rc-progress';
+
 
 class App extends Component {
   constructor(props) {
@@ -68,6 +70,7 @@ class App extends Component {
           <div>
             <Question current_question={this.quiz_data[this.state.progress].question} />
             <ProgressBar current_step={this.state.progress + 1} question_length={this.quiz_data.length} />
+            <Line percent={(this.state.progress + 1)/(this.quiz_data.length)*100} strokeWidth="2" strokeColor="#4080ff" />
             <MultiChoice 
               answers={this.quiz_data[this.state.progress].possible_answers}
               updateSelected={this.updateSelected}

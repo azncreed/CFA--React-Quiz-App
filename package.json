@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "rc-progress": "^2.1.1",
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.0",
+    "react-circular-progressbar": "^0.1.4",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {

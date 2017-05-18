@@ -4280,7 +4280,7 @@ promise@7.1.1, promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@~15.5.7:
+prop-types@^15.0.0, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@~15.5.7:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -4352,6 +4352,12 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
+rc-progress@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/rc-progress/-/rc-progress-2.1.1.tgz#808cb3cd42e75cf986569d9c03ecff7158b73df4"
+  dependencies:
+    prop-types "^15.5.8"
+
 rc@^1.1.7:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.1.tgz#2e03e8e42ee450b8cb3dce65be1bf8974e1dfd95"
@@ -4375,6 +4381,12 @@ react-bootstrap@^0.31.0:
     react-prop-types "^0.4.0"
     uncontrollable "^4.1.0"
     warning "^3.0.0"
+
+react-circular-progressbar@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-circular-progressbar/-/react-circular-progressbar-0.1.4.tgz#106cccea6c7785449bd9f850f6144b46fae134ee"
+  dependencies:
+    prop-types "^15.0.0"
 
 react-dev-utils@^0.5.2:
   version "0.5.2"
